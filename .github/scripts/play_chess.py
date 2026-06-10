@@ -9,6 +9,8 @@ import os
 import sys
 import json
 import argparse
+import time
+import glob
 import chess
 import chess.svg
 
@@ -21,7 +23,6 @@ if hasattr(sys.stderr, "reconfigure"):
 # Constants
 REPO_NAME = "ReZaiden/ReZaiden"
 STATE_FILE = "output/chess.json"
-SVG_FILE = "output/board.svg"
 README_FILE = "README.md"
 START_MARKER = "<!-- CHESS_START -->"
 END_MARKER = "<!-- CHESS_END -->"
@@ -63,9 +64,20 @@ def save_game_state(state: dict):
         json.dump(state, f, indent=2)
 
 
-def render_board(board: chess.Board):
-    """Render the board state to an SVG file with custom branding."""
-    os.makedirs(os.path.dirname(SVG_FILE), exist_ok=True)
+def render_board(board: chess.Board) -> str:
+    """Render the board state to a timestamped SVG file with custom branding and delete old SVGs."""
+    # Create output dir if needed
+    os.makedirs("output", exist_ok=True)
+    
+    # Delete old SVG files
+    for old_svg in glob.glob("output/board_*.svg"):
+        try:
+            os.remove(old_svg)
+        except Exception as e:
+            print(f"Error removing old SVG {old_svg}: {e}")
+            
+    timestamp = int(time.time())
+    filename = f"output/board_{timestamp}.svg"
     
     lastmove = board.peek() if board.move_stack else None
     check_sq = board.king_of_board(board.turn) if board.is_check() else None
@@ -79,9 +91,10 @@ def render_board(board: chess.Board):
         colors=BOARD_COLORS
     )
     
-    with open(SVG_FILE, "w", encoding="utf-8") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write(svg_data)
-    print(f"Board rendered to {SVG_FILE}")
+    print(f"Board rendered to {filename}")
+    return filename
 
 
 def group_legal_moves(board: chess.Board) -> dict:
@@ -134,7 +147,7 @@ def format_move_history(history: list) -> str:
     return " | ".join(recent) if recent else "No moves played yet."
 
 
-def update_readme(board: chess.Board, state: dict):
+def update_readme(board: chess.Board, state: dict, svg_filepath: str):
     """Inject the chess board, status, and move links into README.md."""
     if not os.path.exists(README_FILE):
         print(f"Error: {README_FILE} not found.")
@@ -189,16 +202,12 @@ def update_readme(board: chess.Board, state: dict):
         
     history_text = format_move_history(state["history"])
     
-    # Use a timestamp cache buster to force GitHub Camo to bypass caching
-    import time
-    cache_buster = int(time.time())
-    
     # Compose the entire Chess Markdown block
     chess_block = f"""{START_MARKER}
 ### ♟️ Interactive Chess (Community vs Community)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/{REPO_NAME}/main/{SVG_FILE}?v={cache_buster}" width="400" alt="Chess Board" />
+  <img src="https://raw.githubusercontent.com/{REPO_NAME}/main/{svg_filepath}" width="400" alt="Chess Board" />
   
   <br/>
   
@@ -260,8 +269,8 @@ def main():
             "contributors": state.get("contributors", {})
         }
         save_game_state(new_state)
-        render_board(board)
-        update_readme(board, new_state)
+        svg_filepath = render_board(board)
+        update_readme(board, new_state, svg_filepath)
         write_bot_msg("Started a new Chess game! Good luck! ♟️")
         return
         
@@ -319,8 +328,8 @@ def main():
             
     state["fen"] = board.fen()
     save_game_state(state)
-    render_board(board)
-    update_readme(board, state)
+    svg_filepath = render_board(board)
+    update_readme(board, state, svg_filepath)
     write_bot_msg(msg)
 
 

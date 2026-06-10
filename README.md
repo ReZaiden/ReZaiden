@@ -104,7 +104,7 @@
 ### ♟️ Interactive Chess (Community vs Community)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/board.svg?v=1781102742" width="400" alt="Chess Board" />
+  <img src="https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/board_1781103999.svg" width="400" alt="Chess Board" />
   
   <br/>
   
