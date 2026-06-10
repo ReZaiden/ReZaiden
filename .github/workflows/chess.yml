@@ -1,0 +1,56 @@
+name: Interactive Chess Game
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    # Run only if the issue starts with Chess:
+    if: startsWith(github.event.issue.title, 'Chess:')
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install chess
+
+      - name: Run Chess Move
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          USER: ${{ github.event.issue.user.login }}
+        run: |
+          if [[ "$TITLE" == "Chess: Start New Game"* ]]; then
+            python .github/scripts/play_chess.py --action new
+          elif [[ "$TITLE" == "Chess: Play "* ]]; then
+            MOVE=$(echo "$TITLE" | sed 's/Chess: Play //')
+            python .github/scripts/play_chess.py --action play --move "$MOVE" --user "$USER"
+          else
+            echo "Unknown chess action." > output/bot_msg.txt
+          fi
+
+      - name: Commit & Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update chess game board"
+
+      - name: Comment and Close Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          MSG=$(cat output/bot_msg.txt)
+          gh issue comment "$NUMBER" --body "$MSG"
+          gh issue close "$NUMBER"

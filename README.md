@@ -100,6 +100,34 @@
 
 ---
 
+<!-- CHESS_START -->
+### ♟️ Interactive Chess (Community vs Community)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/board.svg" width="400" alt="Chess Board" />
+  
+  <br/>
+  
+  🟢 **Status:** Active Game | ♟️ **Turn:** Community (White) ⚪  
+  📝 **Last Move:** None
+</div>
+
+#### 👥 Click a move to play for **White ⚪**:
+
+* **Pawns:** [a3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+a3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [a4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+a4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [b3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+b3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [b4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+b4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [c3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+c3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [c4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+c4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [d3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+d3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [d4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+d4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [e3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+e3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [e4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+e4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [f3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+f3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [f4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+f4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [g3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+g3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [g4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+g4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [h3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+h3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [h4](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+h4&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.)
+* **Knights:** [Na3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+Na3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [Nc3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+Nc3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [Nf3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+Nf3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.) | [Nh3](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Play+Nh3&body=Click+%22Submit+new+issue%22+to+execute+your+move.+Please+do+not+modify+the+title.)
+
+
+---
+
+📝 **Recent Moves:** No moves played yet.  
+🏆 **Top Community Players:** No contributors yet.  
+
+### [🔄 Start a New Game](https://github.com/ReZaiden/ReZaiden/issues/new?title=Chess%3A+Start+New+Game&body=Click+%22Submit+new+issue%22+to+start+a+fresh+game.)
+<!-- CHESS_END -->
+
+---
+
 ### 💡 Daily Dev Quote
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
