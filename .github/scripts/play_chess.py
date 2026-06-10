@@ -189,12 +189,16 @@ def update_readme(board: chess.Board, state: dict):
         
     history_text = format_move_history(state["history"])
     
+    # Use a timestamp cache buster to force GitHub Camo to bypass caching
+    import time
+    cache_buster = int(time.time())
+    
     # Compose the entire Chess Markdown block
     chess_block = f"""{START_MARKER}
 ### ♟️ Interactive Chess (Community vs Community)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/{REPO_NAME}/main/{SVG_FILE}" width="400" alt="Chess Board" />
+  <img src="https://raw.githubusercontent.com/{REPO_NAME}/main/{SVG_FILE}?v={cache_buster}" width="400" alt="Chess Board" />
   
   <br/>
   
