@@ -1,13 +1,9 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/profile.png" width="100%" style="border-radius: 10px; border: 4px solid #00FFAA;" alt="ReZaiden Animation"/>
   <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+ReZaiden!;Python+%26+Django+Developer;Building+Scalable+Apps+%26+Intelligent+Agents" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Mohammadreza+Salmani!;Python+%26+Django+Developer;Building+Scalable+Apps+%26+Intelligent+Agents" alt="Typing SVG" />
   </h1>
-
-  <!-- Replace with your GIF after uploading -->
-  <img src="https://github.com/ReZaiden/ReZaiden/blob/main/profile.gif" width="200" style="border-radius: 20%; border: 4px solid #00FFAA;" alt="ReZaiden Animation"/>
 </div>
-
----
 
 ### 👋 About Me
 
