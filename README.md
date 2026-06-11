@@ -44,7 +44,7 @@
 
 <div align="center">
 
-![ReZaiden's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ReZaiden&show_icons=true&theme=dark&hide_border=true&include_all_commits=true)
+![ReZaiden's GitHub Stats](https://github-stats-alpha.vercel.app/api?username=ReZaiden&cc=151515&tc=ffffff&ic=79ff97&bc=151515)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ReZaiden&layout=compact&theme=dark&hide_border=true)
 
