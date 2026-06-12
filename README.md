@@ -142,8 +142,8 @@
 
 [![Telegram Card](https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/telegram-card.svg)](https://t.me/ReZaidenCH)
 
-**[نوروز بر همه‌ی ایرانیان پیروز❤️☀️🤍🦁💚](https://t.me/ReZaidenCH/306)**  
-_2026-03-20_
+**[چند روز پیش داشتم بین پروفایل‌های GitHub می‌گشتم و به چند تا README خیلی خلاقانه برخور...](https://t.me/ReZaidenCH/307)**  
+_2026-06-11_
 
 [View Channel →](https://t.me/ReZaidenCH)
 <!-- TELEGRAM_END -->
