@@ -1,13 +1,14 @@
 {
-  "fen": "rnbqkbnr/p1pppppp/8/1p6/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "fen": "rnbqkbnr/p1pppppp/8/1p6/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
   "history": [
     "e4",
-    "b5"
+    "b5",
+    "Nc3"
   ],
-  "last_move": "b5 (by @khalidrahmanhanify)",
+  "last_move": "Nc3 (by @ReZaiden)",
   "status": "playing",
   "contributors": {
-    "ReZaiden": 1,
+    "ReZaiden": 2,
     "khalidrahmanhanify": 1
   }
 }
