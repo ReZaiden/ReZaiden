@@ -143,8 +143,8 @@
 
 [![Telegram Card](https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/telegram-card.svg)](https://t.me/ReZaidenCH)
 
-**[چند روز پیش داشتم بین پروفایل‌های GitHub می‌گشتم و به چند تا README خیلی خلاقانه برخور...](https://t.me/ReZaidenCH/307)**  
-_2026-06-11_
+**[بعضی پروژه‌ها رو شروع می‌کنی و فکر می‌کنی نهایتاً چند ماه باهات همراه باشن؛ ولی ...](https://t.me/ReZaidenCH/308)**  
+_2026-06-26_
 
 [View Channel →](https://t.me/ReZaidenCH)
 <!-- TELEGRAM_END -->
