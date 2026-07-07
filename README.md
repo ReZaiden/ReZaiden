@@ -74,12 +74,12 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ReZaiden&repo=proxy&theme=dark&hide_border=true&border_color=00FFAA" alt="proxy"/>
 </a>
 
-<a href="https://github.com/ReZaiden/CRM-Front">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ReZaiden&repo=CRM-Front&theme=dark&hide_border=true&border_color=00FFAA" alt="CRM-Front"/>
-</a>
-
 <a href="https://github.com/ReZaiden/Gmail-Auto-Agent-with-LangGraph">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ReZaiden&repo=Gmail-Auto-Agent-with-LangGraph&theme=dark&hide_border=true&border_color=00FFAA" alt="Gmail-Auto-Agent-with-LangGraph"/>
+</a>
+
+<a href="https://github.com/ReZaiden/Python-Developer-Agent-with-crewai">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ReZaiden&repo=Python-Developer-Agent-with-crewai&theme=dark&hide_border=true&border_color=00FFAA" alt="Python-Developer-Agent-with-crewai"/>
 </a>
 
 </div>
