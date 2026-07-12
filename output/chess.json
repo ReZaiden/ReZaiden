@@ -1,17 +1,18 @@
 {
-  "fen": "rn1qkbnr/p1pppppp/b7/1N6/1p2P3/8/PPPP1PPP/R1BQKBNR w KQkq - 2 4",
+  "fen": "rn1qkbnr/p1pppppp/b7/1N6/1pP1P3/8/PP1P1PPP/R1BQKBNR b KQkq c3 0 4",
   "history": [
     "e4",
     "b5",
     "Nc3",
     "b4",
     "Nb5",
-    "Ba6"
+    "Ba6",
+    "c4"
   ],
-  "last_move": "Ba6 (by @AFrenchWrench)",
+  "last_move": "c4 (by @ReZaiden)",
   "status": "playing",
   "contributors": {
-    "ReZaiden": 3,
+    "ReZaiden": 4,
     "khalidrahmanhanify": 1,
     "AbolfazlllT": 1,
     "AFrenchWrench": 1
