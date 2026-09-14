@@ -144,8 +144,8 @@
 
 [![Telegram Card](https://raw.githubusercontent.com/ReZaiden/ReZaiden/main/output/telegram-card.svg)](https://t.me/ReZaidenCH)
 
-**[اکانت ۱۸ ماهه Gemini pro فقط ۴۰۰ هزارتومن؟🫡](https://t.me/ReZaidenCH/311)**  
-_2026-08-05_
+**[↩️ دوباره رسیدیم به ۲۵۶اُمین روز سال😍🔥](https://t.me/ReZaidenCH/312)**  
+_2026-09-13_
 
 [View Channel →](https://t.me/ReZaidenCH)
 <!-- TELEGRAM_END -->
